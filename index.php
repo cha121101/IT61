@@ -60,6 +60,7 @@
                     }else{
                         $medicine[$key]->SetProductName($b);   
                     }
+                    
                 }
             }else{
             }
