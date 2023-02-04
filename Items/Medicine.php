@@ -36,7 +36,7 @@
 
         //This function will compute the SRP of the Product
         function GetSRP(){
-            return $this->GetPrice() * 2;
+            return $this->GetProductPrice() * 2;
         }
         
 

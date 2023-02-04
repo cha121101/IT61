@@ -3,7 +3,7 @@
     //Create a class for Products
     class Products{
 
-        //Init a variables
+        //Create a variables
         private $ProductName;
         private $ProductDescription;
         private $ProductPrice;
@@ -12,25 +12,25 @@
         //Create a algorithm (Function) when the Programmer wants to reuse this.
         //Setter and Getter
 
-        function SetName($Pname){
+        function SetProductName($Pname){
             $this->ProductName = $Pname;
         }
-        function SetDescription($PDescription){
+        function SetProductDescription($PDescription){
             $this->ProductDescription = $PDescription;
         }
 
-        function SetPrice($PPrice){
+        function SetProductPrice($PPrice){
             $this->ProductPrice = $PPrice;
         }
 
-        function GetName(){
+        function GetProductName(){
             return $this->ProductName;
         }
 
-        function GetDescription(){
+        function GetProductDescription(){
             return $this->ProductDescription;
         }
-        function GetPrice(){
+        function GetProductPrice(){
             return $this->ProductPrice;
         }
 
