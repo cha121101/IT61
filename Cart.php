@@ -19,13 +19,13 @@
             foreach($SetCartProducts as $key => $value){
                 echo
                 '<ul>
-                    <li>Name: ' . $value->GetProductName() . '</li>
-                    <li>Description: ' . $value->GetProductDescription() . '</li>
-                    <li>Price: ₱ ' . number_format($value->GetProductPrice(), 1 ). '</li>
-                    <li>Dose: ' . $value->GetProductDose() . ' mg.</li>
-                    <li>Type: ' . $value->GetProductType() . '</li>
-                    <li>Exp Date: ' . $value->GetProductExpirationDate() . '</li>
-                    <li>SRP: ' . number_format($value->GetSRP(), 2) . '</li>
+                    <li><b>Name</b>: ' . $value->GetProductName() . '</li> 
+                    <li><b>Description </b>: ' . $value->GetProductDescription() . '</li>
+                    <li><b>Price</b>: ₱ ' . number_format($value->GetProductPrice(), 1 ). '</li>
+                    <li><b>Dose</b>: ' . $value->GetProductDose() . ' mg.</li>
+                    <li><b>Type </b> : ' . $value->GetProductType() . '</li>
+                    <li><b>Exp Date</b>: ' . $value->GetProductExpirationDate() . '</li>
+                    <li><b>SRP</b>: ₱ ' . number_format($value->GetSRP(), 2) . '</li>
                 </ul>
                 <hr>';
             }
